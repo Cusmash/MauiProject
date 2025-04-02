@@ -25,17 +25,5 @@
                 await DisplayAlert("Error", $"No se pudo abrir la cámara: {ex.Message}", "OK");
             }
         }
-
-        // Lógica para el botón de la hamburguesa
-        private void OnHamburgerClick(object sender, EventArgs e)
-        {
-            // Aquí agregarías la lógica para mostrar el menú de navegación
-        }
-
-        // Lógica para el botón de búsqueda
-        private void OnSearchClick(object sender, EventArgs e)
-        {
-            // Aquí agregarías la lógica para la búsqueda
-        }
     }
 }
